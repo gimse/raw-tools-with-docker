@@ -13,3 +13,4 @@ RUN apt-get install -y unzip
 ADD https://github.com/kevinkovalchik/RawTools/releases/download/2.0.1/RawTools-2.0.1.zip ./RawTools.zip
 RUN unzip RawTools.zip
 
+ENTRYPOINT ["mono"]

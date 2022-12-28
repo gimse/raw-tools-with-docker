@@ -259,3 +259,4 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+raw_data/ch_23Aug2018_HeLa_Std_1.raw
