@@ -6,4 +6,7 @@ See the original proejct for more info https://github.com/kevinkovalchik/RawTool
 
 - Install Docker
 
- - `sudo docker build -t raw-tools-with-docker:latest . && sudo docker run --name raw-tools-with-docker4 --rm  -v /home/ubuntu/documents/raw-tools-with-docker/raw_data:/raw_data   raw-tools-with-docker:latest RawTools.exe -d /raw_data`
+ - `sudo docker build -t raw-tools-with-docker:latest . && sudo docker run --name raw-tools-with-docker4 --rm -it -v /home/ubuntu/documents/raw-tools-with-docker/raw_data:/raw_data   raw-tools-with-docker:latest ThermoRawFileParser.exe -d /raw_data`
+
+
+ - `sudo docker run --rm -it --platform=linux/amd64 quay.io/biocontainers/thermorawfileparser:1.3.2--0 ThermoRawFileParser.sh --help`

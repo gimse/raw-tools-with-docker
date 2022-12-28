@@ -10,7 +10,7 @@ RUN sudo apt install mono-complete -y
 
 RUN apt-get install -y unzip 
 
-ADD https://github.com/kevinkovalchik/RawTools/releases/download/2.0.6a/RawTools-2.0.6a.zip ./RawTools.zip
-RUN unzip RawTools.zip
+ADD https://github.com/compomics/ThermoRawFileParser/releases/download/v1.4.1/ThermoRawFileParser1.4.1.zip ./ThermoRawFileParser1.zip
+RUN unzip ThermoRawFileParser1.zip
 
 ENTRYPOINT ["mono"]

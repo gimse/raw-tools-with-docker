@@ -260,3 +260,4 @@ paket-files/
 __pycache__/
 *.pyc
 raw_data/ch_23Aug2018_HeLa_Std_1.raw
+raw_data/example.raw
