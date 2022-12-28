@@ -10,7 +10,7 @@ RUN sudo apt install mono-complete -y
 
 RUN apt-get install -y unzip 
 
-ADD https://github.com/kevinkovalchik/RawTools/releases/download/2.0.1/RawTools-2.0.1.zip ./RawTools.zip
+ADD https://github.com/kevinkovalchik/RawTools/releases/download/2.0.6a/RawTools-2.0.6a.zip ./RawTools.zip
 RUN unzip RawTools.zip
 
 ENTRYPOINT ["mono"]
